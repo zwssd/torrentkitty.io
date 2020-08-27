@@ -20,6 +20,7 @@ import urllib.parse
 class Spider(CrawlSpider):
     name = 'lang151_spider'
     host = 'https://torrentkitty.io/'
+    file_dir = "/home/david/"
     start_urls = list(set(PH_TYPES))
     pipelines = SqliteDBPipeline()
 
@@ -64,10 +65,15 @@ class Spider(CrawlSpider):
         #logging.debug('request url:------>' + response.url)
         #logging.info(selector)
         lis = selector.xpath('//table[@id="archiveResult"]//tr')
+        filename = self.file_dir+'magnet.txt'
+        f = open(filename, "w+")
         for li in lis:
             logging.debug('li :------>' + li.extract())
-            viewkey = re.findall('href="magnet(.*?)"', li.extract())
-            logging.debug('viewkey :------>' + viewkey[0])
+            magnet = re.findall('href="magnet(.*?)"', li.extract())
+            if magnet:
+                logging.debug('magnet :------>' + magnet[0])
+                f.write('magnet'+magnet[0]+'\n')
+        f.close()
             #self.pipelines.insert_link("ITEM", self.host + viewkey[0])
             #yield Request(url=self.host + viewkey[0],callback=self.parse_play_address)
         '''url_next = selector.xpath('//a[@class="wrpage wr_pagefirst" and text()="下一页"]/@href').extract()
