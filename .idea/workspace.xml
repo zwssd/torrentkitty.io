@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d91560bf-6299-4a74-ba46-ace992b4fa98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/WebHub/WebHub/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebHub/WebHub/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang151.db" beforeDir="false" afterPath="$PROJECT_DIR$/lang151.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ehvGCEYjUa9UF5S8rY9Y6D256x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d91560bf-6299-4a74-ba46-ace992b4fa98" name="Default Changelist" comment="" />
+      <created>1594786540273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594786540273</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="748" y="276" key="FileChooserDialogImpl" timestamp="1594786565604">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="748" y="276" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1594786565604" />
+  </component>
+</project>
