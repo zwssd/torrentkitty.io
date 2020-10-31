@@ -20,7 +20,7 @@ import urllib.parse
 class Spider(CrawlSpider):
     name = 'lang151_spider'
     host = 'https://torrentkitty.io/'
-    file_dir = "/home/david/"
+    file_dir = "./"
     start_urls = list(set(PH_TYPES))
     pipelines = SqliteDBPipeline()
 
